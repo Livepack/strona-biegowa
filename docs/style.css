@@ -55,3 +55,26 @@ div#kontener {width: 100%;  }
 
 div#content {width: 100%; min-height: 100%; }
 
+@media (max-width: 800px) and (min-width: 500px) {
+.container {width:450px;}
+asides,section,header,footer
+#main {width:100%;}
+}
+@media (max-width: 500px) {
+.container {width:90%;}
+asides,section,header,footer
+#main {width:100%;}
+}
+
+@media screen and (max-width:960px) {
+	.rwd-table {
+		overflow-x:scroll;
+	}	
+}
+
+@media screen and (min-width:960px) {
+	table {
+		width:100%;
+		table-layout: fixed;
+	}
+}
