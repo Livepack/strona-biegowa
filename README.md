@@ -1,2 +1,2 @@
-# stronabiegowa
+# strona biegowa
 strona biegowa
